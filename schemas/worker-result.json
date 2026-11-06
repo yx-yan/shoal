@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "summary", "changed_files", "tests_run", "unresolved"],
+  "properties": {
+    "status": {"type": "string", "enum": ["done", "blocked"]},
+    "summary": {"type": "string"},
+    "changed_files": {"type": "array", "items": {"type": "string"}},
+    "tests_run": {"type": "array", "items": {"type": "string"}},
+    "unresolved": {"type": "array", "items": {"type": "string"}}
+  }
+}

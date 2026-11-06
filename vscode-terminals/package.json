@@ -1,0 +1,10 @@
+{
+  "name": "shoal-terminals",
+  "displayName": "Shoal Terminals",
+  "description": "Opens a terminal for each running /shoal worker.",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": { "vscode": "^1.80.0" },
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"]
+}
