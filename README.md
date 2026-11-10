@@ -61,3 +61,7 @@ Without it, follow a worker with `tail -F ~/.shoal/runs/<run>/logs/<id>.log`.
 python3 tests/test_shoal.py
 node --test tests/extension.test.js
 ```
+
+## License
+
+[MIT](LICENSE)
